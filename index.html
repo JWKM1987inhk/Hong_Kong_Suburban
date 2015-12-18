@@ -1,0 +1,298 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Hong Kong Suburban takes you on a journey around the lesser known neighborhoods in the SAR. Using the MTR as a guide, the authors travel to a new MTR station each week to explore the surroundings and uncover some of the hidden gems that Hong Kong has to offer." />
+	<meta property="og:image" content="http://www.hksuburban.com/images/Tai%20Po/jung_market.jpg" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+	<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="main.css">
+	<link rel="stylesheet" href="swipebox-master/src/css/swipebox.min.css">
+	<script src="https://code.jquery.com/jquery-2.1.4.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+	<script src="js/script.js" type="text/javascript"></script>
+	<script src="js/jquery.easing.1.3.js"></script>
+	<title>HK Suburban || Exploring the path less taken</title>
+</head>
+
+<body>
+
+	<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.5&appId=1512109879105882";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<!--Navbar-->
+	<header class="navbar  navbar-inverse navbar-static-top">
+	  <div class="container-fluid">
+		<nav role="navigation">
+		    <!-- Brand and toggle get grouped for better mobile display -->
+		    <div class="navbar-header">
+		      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false" style="color: #000033;">
+		        <span class="sr-only">Toggle navigation</span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		      </button>
+		      <a class="navbar-brand" href="index.html">
+		      	<img alt="Brand" src="images/Navbar logo.jpg" height="40px" width="40px" class="img-rounded">
+		      </a>
+		    </div>
+
+		    <!-- Collect the nav links, forms, and other content for toggling -->
+		    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+		      <ul class="nav navbar-nav">
+		        <li class="active"><a href="/" class="menu">Home<span class="sr-only">(current)</span></a></li>
+		        <li><a href="about.html" class="menu">About</a></li>
+		        <li><a href="contact/index.php" class="menu">Contact</a></li>
+		        <li class="dropdown">
+		          <a href="#" class="dropdown-toggle menu" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Stations<span class="caret"></span></a>
+		          <ul class="dropdown-menu">
+		            <li><a href="island_line.html" id="island"><i class="fa fa-subway"></i>Island Line</a></li>
+		            <li><a href="tsuen_wan_line.html" id="tsuen_wan"><i class="fa fa-subway"></i>Tsuen Wan Line</a></li>
+		            <li><a href="kwun_tong_line.html"id="kwun_tong"><i class="fa fa-subway"></i>Kwun Tong Line</a></li>
+		            <li><a href="east_rail_line.html"id="east_rail"><i class="fa fa-subway"></i>East Rail Line</a></li>
+		            <li><a href="tseung_kwan_o.html"id="tsueng_kwan_o"><i class="fa fa-subway"></i>Tseung Kwan O Line</a></li>
+		            <li role="separator" class="divider"></li>
+		            <li><a href="#" id="island">Coming Soon</a></li>
+		          </ul>
+		        </li>
+		      </ul>
+		      <form class="navbar-form navbar-right" role="search" method="get" action="http://www.sitelevel.com/query" accept-charset="utf-8">
+		      		<div class="fb-like" data-href="http://hksuburban.com/" data-layout="button" data-action="like" data-show-faces="true" data-share="true"></div>
+		        <div class="form-group sl_search_box" style="
+    padding-top: 5px;">
+		          <input type="text" class="form-control" name="query" placeholder="Search">
+		           <input type="hidden" name="crid" value="ijyzwggd"/>
+		        </div>
+		        <button type="submit" class="btn btn-success"><strong>Submit</strong></button>
+		      </form>
+		    </div><!-- /.navbar-collapse -->
+		  </div><!-- /.container-fluid -->
+		</nav>
+	</header>
+	</div>
+
+<!--Header-->
+
+<div class="jumbotron">
+  <div class="container push-class">
+  </div>
+</div>
+<!--Main Info-->
+<div class="container" style="margin-top: 20px;">
+
+<!-- Thumbnail-->
+
+	<div class="row">
+		<div class="col-md-7">
+			<h1 style="padding-left: 20px;">Discovering Hong Kong
+    				<br>
+    			<small>	
+    				<span id="target1">One</span>
+    				<span id="target2">MTR</span>
+    				<span id="target3">station</span>
+    				<span id="target4">at</span>
+    				<span id="target5">a</span>
+    				<span id="target6">time</span>
+    				<i class="fa fa-subway" id="target7"></i>
+    			</small>
+    			</h1>
+    		<br>
+
+    
+
+    	<div class="col-md-6 col-sm-6 col-xs-12">
+		    <div class="thumbnail">
+		    	<a href="po_lam.html" class="thumbnail">
+		      		<img src="images/Po Lam/po_lam.jpg" height="736" width="1104" alt="Po Lam">
+		      	</a>
+		      	<div class="caption">
+					<h3 class="text-center" id="tseung_kwan_o_caption"><i class="fa fa-subway"></i><strong>Tseung Kwan O Line</strong></h3>
+		      	</div>
+		        <p style="text-align:justify;">Surrounded by malls and wide roads, Po Lam is a modern neighborhood. Its numerous parks and access to nature might even be enough to convince you to move.</p>
+		    </div>
+		</div>
+
+
+    		  <div class="col-md-6 col-sm-6 col-xs-12">
+		     <div class="thumbnail">
+		    	<a href="sheung_shui.html" class="thumbnail">
+		      		<img src="images/Sheung Shui/sheung_shui.jpg" alt="Sheung Shui" style="height:184px">
+		      	</a>
+		      <div class="caption">
+		      	<h3 class="text-center" id="east_rail_caption"><i class="fa fa-subway"></i><strong>East Rail Line</strong></h3>
+		      </div>
+		        <p style="text-align:justify;">The long, tree lined paths leading to an impeccably maintained city park will show you a side of Sheung Shui not commonly seen in this border town.</p>
+		    </div>
+		    </div>
+
+    		
+		  <div class="col-md-6 col-sm-6 col-xs-12">
+		    <div class="thumbnail">
+		    	<a href="sai_wan_ho.html" class="thumbnail">
+		      		<img src="images/sai_wan_ho/sai_wan_ho.jpg" alt="Sai Wan Ho">
+		      	</a>
+		      	<div class="caption">
+					<h3 class="text-center" id="island_caption"><i class="fa fa-subway"></i><strong>Island Line</strong></h3>
+		      	</div>
+		        <p style="text-align:justify;">Located on the east side of Hong Kong Island, Sai Wan Ho has all the feeling of
+		        	 the traditional Kowloon side, conveniently located on the island.</p>
+		    </div>
+		  </div>
+
+		   <div class="col-md-6 col-sm-6 col-xs-12">
+		     <div class="thumbnail">
+		    	<a href="shau_kei_wan.html" class="thumbnail">
+		      		<img src="images/shau_kei_wan/shau_kei_wan.jpg" alt="Shau Kei Wan">
+		      	</a>
+		      <div class="caption">
+		      	<h3 class="text-center" id="island_caption"><i class="fa fa-subway"></i><strong>Island Line</strong></h3>
+		      </div>
+		        <p style="text-align:justify;">Shau Kei Wan not only serves as a transport hub to the sunny, southern side of the island, it stands on its own as a shoppers mecca with a plethora of things to see, do, and eat.</p>
+		    </div>
+		    </div>
+
+		    <div class="col-md-6 col-sm-6 col-xs-12">
+		     <div class="thumbnail">
+		    	<a href="tai_po_market.html" class="thumbnail">
+		      		<img src="images/Tai Po/tai_po.jpg" alt="Tai Po Market Station" style="height:184px">
+		      	</a>
+		      <div class="caption">
+		      	<h3 class="text-center" id="east_rail_caption"><i class="fa fa-subway"></i><strong>East Rail Line</strong></h3>
+		      </div>
+		        <p style="text-align:justify;">Tai Po is the closest thing that can be considered a "suburb" in Hong Kong. While there is a market that can be explored, come for the things that can not be found in the city like river side bike paths, a railway museum, and a lower key vibe.</p>
+		    </div>
+		    </div>
+
+		    <div class="col-md-6 col-sm-6 col-xs-12">
+		     <div class="thumbnail">
+		    	<a href="sham_shui_po.html" class="thumbnail">
+		      		<img src="images/sham_shui_po/sham_shui_po.jpg" alt="Sham Shui Po Station">
+		      	</a>
+		      <div class="">
+		      	<h3 class="text-center" id="tsuen_wan_caption"><i class="fa fa-subway"></i><strong>Tsuen Wan Line</strong></h3>
+		      </div>
+		        <p style="text-align:justify;">Sham Shui Po is the handsome, more successful cousin of Mong Kok. Compared to the famous markets in and around Mong Kok, Sham Shui Po's markets have a wider selection of goods, a relatively less crowded atmosphere, and wider alleys.</p>
+		    </div>
+		    </div>
+
+		    <div class="col-md-6 col-sm-6 col-xs-12">
+		     <div class="thumbnail">
+		    	<a href="choi_hung.html" class="thumbnail">
+		      		<img src="images/Choi Hung/choi_hung.jpg" alt="Choi Hung">
+		      	</a>
+		      <div class="">
+		      	<h3 class="text-center" id="kwun_tong_caption"><i class="fa fa-subway"></i><strong>Kwun Tong Line</strong></h3>
+		      </div>
+		        <p style="text-align:justify;">Choi Hung is often overlooked as a quick stop before heading to Sai Kung. With an open market and an abundance of cheap places to get a hair cut, the area is certainly worth exploring before catching the minibus to Sai Kung.</p>
+		    </div>
+		    </div>
+
+		    <div class="col-md-6 col-sm-6 col-xs-12">
+		    <div class="thumbnail">
+		    	<a href="contact/index.php" class="thumbnail">
+		      		<img src="images/Navbar logo.jpg" alt="Request" style="height:184px">
+		      	</a>
+		      	<div class="caption">
+					<h3 class="text-center" style="color: #003"><i class="fa fa-subway"></i><strong>Request a Station</strong></h3>
+		      	</div>
+		        <p style="text-align:justify;">Click the link above to contact the website to request a station or inquire about doing a guest post.</p>
+		    </div>
+		</div>
+
+
+		</div>
+	
+		<br>
+	<div class="col-lg-5 hidden-xs col-md-4 hidden-sm">
+            <div class="panel panel-default">
+                <div class="panel-heading" style="padding-bottom: 5px;padding-top: 5px;">
+                    <h3 class="" style="margin-top: 5px;margin-bottom: 5px;">Categories</h3>
+                </div>
+                <div class="panel-body">
+					<ul class="panel-list">
+						<li class="panel-list" style="font-weight:bold">Shopping</li>
+							<ul>
+								<li><a href="shau_kei_wan.html#market">Shau Kei Wan Market</a></li>
+								<li><a href="tai_po_market.html#fushinmarket">Fu Shin Street Market (Tai Po)</a></li>
+								<li><a href="choi_hung.html#choihungmarket">Ngau Chi Wan Market (Choi Hung)</a></li>
+								<li><a href="sham_shui_po.html#apliumarket">Apliu Market (Sham Shui Po)</a></li>
+								<li><a href="sham_shui_po.html#arcade">Golden Computer Arcade (Sham Shui Po)</a></li>
+							</ul>
+							<br>
+						<li class="panel-list" style="font-weight:bold">Eating</li>
+							<ul>
+								<li><a href="tai_po_market.html#pingkee">Ping Kee Restaurant (Tai Po)<i class="fa fa-thumbs-down"></i></a></li>
+								<li><a href="sham_shui_po.html#ramen">Kakurega Ramen Factory (Sham Shui Po)<i class="fa fa-thumbs-up"></i></a></li>
+								<li><a href="sheung_shui.html#ramen2">Menya Yamashita (麺家山下) (Sheung Shui)<i class="fa fa-thumbs-up"></i></a></li>
+							</ul>
+							<br>
+						<li class="panel-list" style="font-weight:bold">Sightseeing</li>
+							<ul>
+								<li><a href="tai_po_market.html#railway">Hong Kong Railway Museum (Tai Po)</a></li>
+								<li><a href="sai_wan_ho.html#film">Hong Kong Film Archives (Sai Wan Ho)</a></li>
+								<li><a href="sai_wan_ho.html#harbourPark">Sai Wan Ho Harbour Park</a></li>
+								<li><a href="sheung_shui.html#northPark">North District Park (Sheung Shui)</a></li>
+							</ul>
+					</ul>
+                </div>
+            </div> 
+        </div>
+
+     	<div class="col-lg-5 col-md-4 hidden-sm hidden-xs" style="
+    	padding-bottom: 15px;">
+		<div class="fb-follow" data-href="https://www.facebook.com/hksuburban" data-layout="standard" data-show-faces="true"></div>
+		</div>
+
+		<div class="col-lg-5 col-md-4 hidden-sm hidden-xs" style="
+    	padding-bottom: 15px;">
+		<div class="fb-page" data-href="https://www.facebook.com/hksuburban" data-width="600" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true" data-show-posts="false"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/hksuburban"><a href="https://www.facebook.com/hksuburban">Hong Kong Suburban</a></blockquote></div></div>
+		<br>
+		</div>
+
+        <div class="col-lg-5 col-md-4 hidden-sm hidden-xs">
+			<div class="well well-sm text-center"><i class="fa fa-map-o"></i>Places we've been</div>
+			<a href="images/mtr_map.jpg" class="swipebox" title="Places we've been">
+			<img src='images/mtr_map.jpg'/>
+			</a>
+		<br>
+		</div>
+
+	</div>
+</div>
+
+	<!--Footer-->
+
+	<div class="container-fluid" id="footer">
+		<div class="row">
+			<div class="col-xs-12 text-center" id="footer-text">
+				&copy; HK Suburban <br> <span style="font-weight:normal;">Site designed by Lee Mordell</span>
+			</div>
+		</div>
+	</div>	
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-69353947-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+<script src="swipebox-master/src/js/jquery.swipebox.min.js"></script>
+
+</body>
+
+</html>
